@@ -17,12 +17,10 @@ html{
     position:absolute;
 }
 .logo{
-    font-size: 30px;
-    letter-spacing: 10px;
+    width:170px;
+    height: auto;
     float:left;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    margin: 10px 0 5px 5px;
+    margin: 10px 0 5px 25px;
 }
 .header-btn{
     font-family: 'Roboto', sans-serif;
@@ -79,11 +77,10 @@ font-family: 'Xanh Mono', monospace;
     width:29%;
     height: 100%;
     z-index: -1;
-    -webkit-filter: brightness(10%);
-    filter:brightness(10%);
     -webkit-box-shadow: -3px 0px 14px 0px rgba(50, 50, 50, 0.76);
 -moz-box-shadow:    -3px 0px 14px 0px rgba(50, 50, 50, 0.76);
 box-shadow:         -3px 0px 14px 0px rgba(50, 50, 50, 0.76);
+background-color: rgba(50, 50, 50, 0.3);
 }
 .my-form-heading{
   font-size: 25px;
@@ -98,7 +95,7 @@ box-shadow:         -3px 0px 14px 0px rgba(50, 50, 50, 0.76);
 }
 .form-content-div {
     background-color:transparent;
-    padding:10px 25px 0 25px;
+    padding:35px 25px 0 25px;
 }
   .input-field {
     width: 100%;
@@ -154,14 +151,88 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     letter-spacing: 2px;
     margin-bottom: 0;
   }
+  /* Form area ended */
 
+.firstBanner{
+    position: absolute;
+    bottom: -700px;
+    width: 100%;
+    height: auto;
+}
+.firstWrapper {
+    box-sizing: border-box;
+    border: 1px solid #7c100d;
+    background-color: #400301;
+    padding: 31.5px 45px 0;
+    margin-bottom: 62.5px;
+    color:white;
+}
+.firstWrapper .firstWrapperTop {
+    text-align: center;
+}
+.firstWrapper .firstWrapperBottom {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 95px;
+    padding-top: 41px;
+    position: relative;
+    position: relative;
+}
+.firstWrapper .firstWrapperBottom ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.firstWrapper .firstWrapperBottom a.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #161743;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    height: 46px;
+    width: 260px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #fad961 0%, #f79c1c 98.45%);
+    border: 0;
+    text-transform: uppercase;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -23px;
+}
+.firstWrapper .firstWrapperBottom ul li {
+    width: 21%;
+    text-align: center;
+}
+.banner-carousel{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+a, button {
+    transition: 0.5s;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+  
   .text-content-div{
       margin-top: 25px;
       width: 100%;
       height: auto;
       color: white;
       position: absolute;
-      bottom: -800px;
+      bottom: -1500px;
   }
 
 .play-btn{
