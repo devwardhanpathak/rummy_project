@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b31217, #e52d27);
+}
+
+.my-header{
+    width: 100%;
+    height: auto;
+    position:absolute;
+}
+.logo{
+    font-size: 30px;
+    letter-spacing: 10px;
+    float:left;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0 5px 5px;
+}
+.header-btn{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    float: right;
+    margin: 15px 0 7px 7px;
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+}
+.header-btn:hover{
+    text-decoration:none;
+    color: white;
+}
+.body-container{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top:25px;
+    width:90%;
+    height: 540px;
+    padding: 10px;
+}
+.left-div{
+    float: left;
+    width:70%;
+    height: auto;
+}
+.carousel,.carousel-inner,.carousel-item{
+    height: 540px;
+}
+.car-img{
+    width: auto;
+    height: 540px;
+}
+.right-div{
+    float: right;
+    width:29%;
+    height: 100%;
+    margin-left:10px ;
+}
+.form-contain{
+    position: absolute;
+    width: 29%;
+    right: 2%;
+    top: 12%;
+border-radius: 10px;
+font-family: 'Xanh Mono', monospace;
+}
+.form-image{
+    position: absolute;
+    width:29%;
+    height: 100%;
+    z-index: -1;
+    -webkit-filter: brightness(10%);
+    filter:brightness(10%);
+    -webkit-box-shadow: -3px 0px 14px 0px rgba(50, 50, 50, 0.76);
+-moz-box-shadow:    -3px 0px 14px 0px rgba(50, 50, 50, 0.76);
+box-shadow:         -3px 0px 14px 0px rgba(50, 50, 50, 0.76);
+}
+.my-form-heading{
+  font-size: 25px;
+  color: white;
+    text-align: center;
+}
+::placeholder{
+  font-size: 15px;
+    color:white;
+    opacity: .8;
+    font-weight: lighter;
+}
+.form-content-div {
+    background-color:transparent;
+    padding:10px 25px 0 25px;
+}
+  .input-field {
+    width: 100%;
+    align-items: center;
+    font-family: 'Xanh Mono', monospace;
+    letter-spacing: 5px;
+    padding: 10px;
+    font-weight:bold;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border-radius:10px;
+    background: transparent;
+    border: 1px solid rgba( 255, 255, 255,0.45);
+  }
+ .input-field:focus {
+    background-color:transparent;
+    outline: none;
+    color: white;
+  }
+  .registerbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px 25px;
+    margin: 8px 0;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    cursor: pointer;
+    width:100%;
+    border-radius:10px;
+    opacity: 0.9;
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+  
+  .registerbtn:hover {
+    background: rgba( 255, 255, 255, 0.30 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  .form-para{
+      font-size: 12px;
+    color:white;
+    opacity: .9;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+  }
+
+  .text-content-div{
+      margin-top: 25px;
+      width: 100%;
+      height: auto;
+      color: white;
+      position: absolute;
+      bottom: -800px;
+  }
+
+.play-btn{
+    position: absolute;
+    top: -75px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align:center;
+    width: auto;
+    font-family: 'Press Start 2p';
+}
+.start-btn{
+    text-align: center;
+	display: inline-block;
+	margin:5px;
+    font-weight: bold;
+    padding: 10px 0 10px 10px ;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0 .2em gray; 
+    cursor: pointer;
+
+}
+.start-btn:active {
+	box-shadow: none;
+	position: relative;
+	top: .1em;
+}
+
+  .homeContent ol{
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
